@@ -9,18 +9,15 @@ module.exports = {
         {
             for(var i = 0;i < files.length;i++)
             {
-                console.log("----------------");
-                console.log("test: "+files[i]);
-                console.log("----------------");
                 exec(cmd+" "+files[i], (err, stdout, stderr) =>
                 {
                     if (err)
                         console.log("Unable to execute: "+cmd);
     
-                    //the *entire* stdout and stderr (buffered)
-                    console.log(`stdout: ${stdout}`);
-                    console.log(`stderr: ${stderr}`);
-                    console.log("----------------");
+                    if(stdout)
+                        console.log("stdout from: "+files[i].+" is: "+stdout);
+                    if(stderr)
+                        console.log("stderr from: "+files[i].+" is: "+stderr);
                 });
             }
         });
