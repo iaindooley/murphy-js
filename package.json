@@ -1,0 +1,22 @@
+{
+  "name": "murphy",
+  "version": "0.0.1",
+  "description": "Convergence testing script for testing non-node JavaScript using Node.js",
+  "main": "murphy.js",
+  "scripts": {
+    "test": "node murphy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iaindooley/murphy-js.git"
+  },
+  "author": "Iain Dooley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iaindooley/murphy-js/issues"
+  },
+  "homepage": "https://github.com/iaindooley/murphy-js#readme",
+  "dependencies": {
+    "glob": "^7.1.2"
+  }
+}
