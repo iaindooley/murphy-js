@@ -1,6 +1,6 @@
 {
-  "name": "murphy",
-  "version": "0.0.1",
+  "name": "murphytest",
+  "version": "0.0.2",
   "description": "Convergence testing script for testing non-node JavaScript using Node.js",
   "main": "murphy.js",
   "scripts": {
