@@ -15,9 +15,9 @@ module.exports = {
                         console.log("Unable to execute: "+cmd);
     
                     if(stdout)
-                        console.log("stdout from: "+files[i].+" is: "+stdout);
+                        console.log("stdout from: "+files[i]+" is: "+stdout);
                     if(stderr)
-                        console.log("stderr from: "+files[i].+" is: "+stderr);
+                        console.log("stderr from: "+files[i]+" is: "+stderr);
                 });
             }
         });
