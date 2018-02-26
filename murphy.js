@@ -1,3 +1,5 @@
+const path = require("path");
+const fs = require("fs");
 const glob = require("glob")
 const {exec} = require('child_process');
 const cmd = "node ";
@@ -21,5 +23,9 @@ module.exports = {
                 });
             }
         });
+    },
+    load: function(base,path)
+    {
+        return fs.readFileSync(path.resolve(base,path)).toString();
     }
 };
