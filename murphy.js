@@ -24,8 +24,8 @@ module.exports = {
             }
         });
     },
-    load: function(base,path)
+    load: function(base,file)
     {
-        return fs.readFileSync(path.resolve(base,path)).toString();
+        return fs.readFileSync(path.resolve(base,file)).toString();
     }
 };
