@@ -1,0 +1,2 @@
+const murphy = require("./murphy.js");
+murphy.run(__dirname);

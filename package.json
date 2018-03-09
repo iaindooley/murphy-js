@@ -1,10 +1,10 @@
 {
   "name": "murphytest",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Convergence testing script for testing non-node JavaScript using Node.js",
   "main": "murphy.js",
   "scripts": {
-    "test": "node murphy.js"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
